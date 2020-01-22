@@ -15,7 +15,7 @@ import com.zxn.process.config.KeepLiveService;
  */
 public class KeepAliveApp extends Application {
 
-    private ForegroundNotification mForegroundNotification = new ForegroundNotification("小精灵", "智慧您的收银", R.mipmap.ic_launcher,
+    private ForegroundNotification mForegroundNotification = new ForegroundNotification("", "", R.mipmap.ic_launcher,
             //定义前台服务的通知点击事件
             new ForegroundNotificationClickListener() {
 
@@ -30,7 +30,7 @@ public class KeepAliveApp extends Application {
         super.onCreate();
         initKeepLive();
     }
-
+    
     private void initKeepLive() {
         //启动保活服务
         KeepLive.startWork(this, KeepLive.RunMode.ROGUE, mForegroundNotification,

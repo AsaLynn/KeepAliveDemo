@@ -1,8 +1,7 @@
 # KeepLive for Android 安卓保活组件
 ## 集成了无声音乐（已优化功耗），前台服务、双进程守护、像素保活，jobs五种保活方式
 ## 主流的魅族、小米、锤子、vivo、努比亚、三星、华为等品牌，涵盖4.4至9.0的机型测试结果为，只要用户不主动杀死程序就不会死，但某些机型锁屏即断网的问题不是我能解决的。
-## 新框架发布 https://github.com/fanqieVip/AndroidOcrLibs
-### 安卓离线识别银行卡、驾驶证、身份证，准确率极高
+
 
 ## 更新日志
 
@@ -86,16 +85,7 @@
                 }
         );
 ```
-### 依赖
-#### Maven
-```Xml
-<dependency>
-  <groupId>com.fanjun</groupId>
-  <artifactId>keeplive</artifactId>
-  <version>1.1.20</version>
-  <type>pom</type>
-</dependency>
-```
+
 #### Gradle
 ```Xml
 implementation 'com.zxn.process:keep-alive:1.0.0'
