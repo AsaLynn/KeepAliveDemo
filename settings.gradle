@@ -1,3 +1,2 @@
-include ':keep-alive'
+//include ':keep-alive'
 include ':app'
-rootProject.name='KeepAliveDemo'
