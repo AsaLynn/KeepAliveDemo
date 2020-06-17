@@ -6,11 +6,11 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 4
+        versionName "1.0.3"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -24,9 +24,11 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //api project(path: ':floatwindow')
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    api 'com.zxn.floatwindow:floatwindow:1.0.0'
 }
 
 apply plugin: 'com.github.dcendents.android-maven'
@@ -35,7 +37,7 @@ def siteUrl = 'https://github.com/zhang721688/KeepAliveDemo'
 def gitUrl = 'https://github.com/zhang721688/KeepAliveDemo.git'
 def libName = "keep-alive"
 group = "com.zxn.process"
-version = "1.0.2"
+version = "1.0.3"
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'

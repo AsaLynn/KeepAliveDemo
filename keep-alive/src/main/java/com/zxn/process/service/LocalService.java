@@ -92,8 +92,10 @@ public final class LocalService extends Service {
             mOnepxReceiver = new OnepxReceiver();
         }
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("android.intent.action.SCREEN_OFF");
-        intentFilter.addAction("android.intent.action.SCREEN_ON");
+        //intentFilter.addAction("android.intent.action.SCREEN_OFF");
+        //intentFilter.addAction("android.intent.action.SCREEN_ON");
+        intentFilter.addAction(Intent.ACTION_SCREEN_OFF);
+        intentFilter.addAction(Intent.ACTION_SCREEN_ON);
         registerReceiver(mOnepxReceiver, intentFilter);
         //屏幕点亮状态监听，用于单独控制音乐播放
         if (screenStateReceiver == null) {

@@ -1,17 +1,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zxn.process">
 
-    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
     <application>
-        <receiver android:name="com.zxn.process.receiver.NotificationClickReceiver"/>
-        <activity android:name="com.zxn.process.activity.OnePixelActivity" android:theme="@style/onePixelActivity" android:launchMode="singleInstance" android:excludeFromRecents="true"/>
-        <service android:name="com.zxn.process.service.LocalService"/>
-        <service android:name="com.zxn.process.service.HideForegroundService"/>
-        <service android:name="com.zxn.process.service.JobHandlerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <service android:name="com.zxn.process.service.RemoteService" android:process=":remote"/>
+        <receiver android:name=".receiver.NotificationClickReceiver" />
+
+        <activity
+            android:name=".activity.OnePixelActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/onePixelActivity" />
+
+        <service android:name=".service.LocalService" />
+        <service android:name=".service.HideForegroundService" />
+        <service
+            android:name=".service.JobHandlerService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".service.RemoteService"
+            android:process=":remote" />
     </application>
 </manifest>

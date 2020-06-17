@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zxn.process"
+4    android:versionCode="3"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+11-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:4:5-80
+11-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:5:5-77
+12-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.GET_TASKS" />
+13-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:6:5-67
+13-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:6:22-65
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:7:5-81
+14-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.REORDER_TASKS" />
+15-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:8:5-71
+15-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:8:22-69
+16
+17    <application>
+17-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:9:5-16:19
+18        <receiver android:name="com.zxn.process.receiver.NotificationClickReceiver" />
+18-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:10:9-86
+18-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:10:19-84
+19
+20        <activity
+20-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:9-187
+21            android:name="com.zxn.process.activity.OnePixelActivity"
+21-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:19-75
+22            android:excludeFromRecents="true"
+22-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:152-185
+23            android:launchMode="singleInstance"
+23-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:116-151
+24            android:theme="@style/onePixelActivity" />
+24-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:76-115
+25
+26        <service android:name="com.zxn.process.service.LocalService" />
+26-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:12:9-71
+26-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:12:18-69
+27        <service android:name="com.zxn.process.service.HideForegroundService" />
+27-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:13:9-80
+27-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:13:18-78
+28        <service
+28-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:9-133
+29            android:name="com.zxn.process.service.JobHandlerService"
+29-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:18-74
+30            android:permission="android.permission.BIND_JOB_SERVICE" />
+30-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:75-131
+31        <service
+31-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:9-98
+32            android:name="com.zxn.process.service.RemoteService"
+32-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:18-70
+33            android:process=":remote" />
+33-->D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:71-96
+34    </application>
+35
+36</manifest>

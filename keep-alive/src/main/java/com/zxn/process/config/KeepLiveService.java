@@ -1,7 +1,5 @@
 package com.zxn.process.config;
 
-import android.content.Context;
-
 /**
  * 需要保活的服务
  */

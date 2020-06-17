@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zxn.process"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application>
+        <receiver android:name="com.zxn.process.receiver.NotificationClickReceiver" />
+
+        <activity
+            android:name="com.zxn.process.activity.OnePixelActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/onePixelActivity" />
+
+        <service android:name="com.zxn.process.service.LocalService" />
+        <service android:name="com.zxn.process.service.HideForegroundService" />
+        <service
+            android:name="com.zxn.process.service.JobHandlerService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.zxn.process.service.RemoteService"
+            android:process=":remote" />
+    </application>
+
+</manifest>

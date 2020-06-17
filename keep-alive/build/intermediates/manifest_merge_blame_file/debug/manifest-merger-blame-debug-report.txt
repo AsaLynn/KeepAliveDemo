@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zxn.process"
+4    android:versionCode="3"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:4:5-78
+11-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:4:22-75
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:5-81
+12-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+13-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:6:5-81
+13-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:7:5-77
+14-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.GET_TASKS" />
+15-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:8:5-68
+15-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:5-81
+16-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:22-78
+17    <uses-permission android:name="android.permission.REORDER_TASKS" />
+17-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:10:5-72
+17-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:10:22-69
+18
+19    <application>
+19-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:12:5-29:19
+20        <receiver android:name="com.zxn.process.receiver.NotificationClickReceiver" />
+20-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:13:9-72
+20-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:13:19-69
+21
+22        <activity
+22-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:15:9-19:55
+23            android:name="com.zxn.process.activity.OnePixelActivity"
+23-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:16:13-54
+24            android:excludeFromRecents="true"
+24-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:17:13-46
+25            android:launchMode="singleInstance"
+25-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:18:13-48
+26            android:theme="@style/onePixelActivity" />
+26-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:19:13-52
+27
+28        <service android:name="com.zxn.process.service.LocalService" />
+28-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:21:9-57
+28-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:21:18-54
+29        <service android:name="com.zxn.process.service.HideForegroundService" />
+29-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:22:9-66
+29-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:22:18-63
+30        <service
+30-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:23:9-25:72
+31            android:name="com.zxn.process.service.JobHandlerService"
+31-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:24:13-54
+32            android:permission="android.permission.BIND_JOB_SERVICE" />
+32-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:25:13-69
+33        <service
+33-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:26:9-28:41
+34            android:name="com.zxn.process.service.RemoteService"
+34-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:27:13-50
+35            android:process=":remote" />
+35-->D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:28:13-38
+36    </application>
+37
+38</manifest>

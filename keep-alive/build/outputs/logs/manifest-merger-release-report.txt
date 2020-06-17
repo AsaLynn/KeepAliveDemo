@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:1-17:12
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:5:22-74
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.REORDER_TASKS
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:8:22-69
+application
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:9:5-16:19
+receiver#com.zxn.process.receiver.NotificationClickReceiver
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:10:9-86
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:10:19-84
+activity#com.zxn.process.activity.OnePixelActivity
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:9-187
+	android:excludeFromRecents
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:152-185
+	android:launchMode
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:116-151
+	android:theme
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:76-115
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:11:19-75
+service#com.zxn.process.service.LocalService
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:12:9-71
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:12:18-69
+service#com.zxn.process.service.HideForegroundService
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:13:9-80
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:13:18-78
+service#com.zxn.process.service.JobHandlerService
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:9-133
+	android:permission
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:75-131
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:14:18-74
+service#com.zxn.process.service.RemoteService
+ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:9-98
+	android:process
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:71-96
+	android:name
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml:15:18-70
+uses-sdk
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub\repositories\KeepAliveDemo\keep-alive\src\main\AndroidManifest.xml

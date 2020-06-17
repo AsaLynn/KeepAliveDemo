@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:1-30:12
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:4:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.REORDER_TASKS
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:10:22-69
+application
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:12:5-29:19
+receiver#com.zxn.process.receiver.NotificationClickReceiver
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:13:9-72
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:13:19-69
+activity#com.zxn.process.activity.OnePixelActivity
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:15:9-19:55
+	android:excludeFromRecents
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:17:13-46
+	android:launchMode
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:18:13-48
+	android:theme
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:19:13-52
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:16:13-54
+service#com.zxn.process.service.LocalService
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:21:18-54
+service#com.zxn.process.service.HideForegroundService
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:22:9-66
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:22:18-63
+service#com.zxn.process.service.JobHandlerService
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:23:9-25:72
+	android:permission
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:25:13-69
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:24:13-54
+service#com.zxn.process.service.RemoteService
+ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:26:9-28:41
+	android:process
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:28:13-38
+	android:name
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml:27:13-50
+uses-sdk
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		ADDED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml
+		INJECTED from D:\ZxnWork\gitee\xjl_shht\keep-alive\src\main\AndroidManifest.xml

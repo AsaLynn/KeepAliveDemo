@@ -4,26 +4,30 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
+import com.zxn.process.KeepLive;
 import com.zxn.process.activity.OnePixelActivity;
 
 public final class OnepxReceiver extends BroadcastReceiver {
-    android.os.Handler mHander;
+    private Handler mHander;
     boolean screenOn = true;
 
     public OnepxReceiver() {
-        mHander = new android.os.Handler(Looper.getMainLooper());
+        mHander = new Handler(Looper.getMainLooper());
     }
 
     @Override
     public void onReceive(final Context context, Intent intent) {
+        Log.i("keep-alive", "OnepxReceiver: " + intent.getAction());
         if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {    //屏幕关闭的时候接受到广播
             screenOn = false;
             mHander.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    if(!screenOn){
+                    if (!screenOn) {
                         Intent intent2 = new Intent(context, OnePixelActivity.class);
                         intent2.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                         intent2.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -36,9 +40,10 @@ public final class OnepxReceiver extends BroadcastReceiver {
                         }
                     }
                 }
-            },1000);
+            }, 1000);
             //通知屏幕已关闭，开始播放无声音乐
             context.sendBroadcast(new Intent("_ACTION_SCREEN_OFF"));
+            KeepLive.showFloatWindow();
         } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {   //屏幕打开的时候发送广播  结束一像素
             screenOn = true;
             //通知屏幕已点亮，停止播放无声音乐
