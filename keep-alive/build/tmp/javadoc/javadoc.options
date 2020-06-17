@@ -2,12 +2,12 @@
 -charset 'UTF-8'
 -classpath 'D:\\ZxnProgram\\Android\\Sdk\\platforms\\android-29\\android.jar'
 -d 'D:\\GitHub\\repositories\\KeepAliveDemo\\keep-alive\\build\\docs\\javadoc'
--doctitle 'keep-alive 1.0.2 API'
+-doctitle 'keep-alive 1.0.5 API'
 -encoding 'UTF-8'
 -link 'http://docs.oracle.com/javase/7/docs/api'
 -quiet 
 -version 
--windowtitle 'keep-alive 1.0.2 API'
+-windowtitle 'keep-alive 1.0.5 API'
 'D:\\GitHub\\repositories\\KeepAliveDemo\\keep-alive\\src\\main\\java\\com\\zxn\\process\\activity\\OnePixelActivity.java'
 'D:\\GitHub\\repositories\\KeepAliveDemo\\keep-alive\\src\\main\\java\\com\\zxn\\process\\config\\ForegroundNotification.java'
 'D:\\GitHub\\repositories\\KeepAliveDemo\\keep-alive\\src\\main\\java\\com\\zxn\\process\\config\\ForegroundNotificationClickListener.java'

@@ -1,4 +1,15 @@
 R_DEF: Internal format may change without notice
 local
+drawable float_view_bg
+drawable fm_float_play
+drawable ic_launcher_background
+layout float_view
+mipmap default_record_album
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap icon_float_close
+mipmap icon_float_next
+mipmap icon_float_pause
+mipmap icon_float_play
 raw novioce
 style onePixelActivity

@@ -7,7 +7,7 @@ android {
         minSdkVersion 18
         targetSdkVersion 29
         versionCode 4
-        versionName "1.0.3"
+        versionName "1.0.5"
 
 //        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 //        consumerProguardFiles "consumer-rules.pro"
@@ -37,7 +37,7 @@ def siteUrl = 'https://github.com/zhang721688/KeepAliveDemo'
 def gitUrl = 'https://github.com/zhang721688/KeepAliveDemo.git'
 def libName = "keep-alive"
 group = "com.zxn.process"
-version = "1.0.3"
+version = "1.0.5"
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'

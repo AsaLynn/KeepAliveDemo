@@ -599,6 +599,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable float_view_bg
+drawable fm_float_play
+drawable ic_launcher_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -796,6 +799,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout custom_dialog
+layout float_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -806,6 +810,13 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap default_record_album
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap icon_float_close
+mipmap icon_float_next
+mipmap icon_float_pause
+mipmap icon_float_play
 raw novioce
 string abc_action_bar_home_description
 string abc_action_bar_up_description
